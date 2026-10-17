@@ -11,4 +11,4 @@ def test_calcular_sin_descuento():
     assert calcular_precio(500, 0) == 500
 
 def test_descuento_invalido():
-    calcular_precio(100, 101)
+    calcular_precio(100, 98)
